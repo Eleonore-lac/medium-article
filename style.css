@@ -1,0 +1,91 @@
+
+
+div {
+padding: 30px;
+}
+
+.banner {
+  background-image: url("http://unsplash.it/1000/500");
+  background-size: cover;
+  color: white;
+  padding: 100px;
+}
+
+.banner h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.banner p {
+  font-size: 35px;
+  opacity: 0.8;
+
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+  font-size: 20px;
+  color: rgb(57, 55, 55);
+  background: white;
+}
+
+.container {
+  margin :auto;
+  width: 600px;
+
+}
+
+h2{
+  color: rgb(133, 130, 130);
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color : rgb(133, 130, 130);
+  font-style: italic;
+  font-size: 30px;
+  background-color: rgb(172, 228, 172);
+}
+
+a:hover {
+  background-color: rgb(25, 122, 25);
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 500px;
+  }
+  .body{
+    font-size: 18px;
+  }
+
+}
+@media(max-width: 768px) {
+  .container {
+    width: 40px;
+  }
+  .body{
+    font-size: 15px;
+  }
+  .banner h1 {
+    font-size: 25px;
+  }
+  .banner p {
+    font-size: 18px;
+  }
+}
+@media(max-width: 576px) {
+  .container {
+    width: 30px;
+  }
+  .body{
+    font-size: 10px;
+  }
+  .banner h1 {
+    font-size: 17px;
+  }
+  .banner p {
+    font-size: 12px;
+  }
+}
